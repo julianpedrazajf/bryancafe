@@ -1,0 +1,76 @@
+<CafeWebsite>
+    <Page name="Home">
+        <Section id="hero">
+            <Title>Welcome to Bryan's Café</Title>
+            <Subtitle>Experience the Cozy Elegance</Subtitle>
+            <Description>Join us at Bryan’s Café, where we serve high-quality, healthy food in a minimalist and inviting space.</Description>
+        </Section>
+        <Section id="intro">
+            <Image src="assets/images/cafe_interior.jpg" alt="Cafe Interior"/>
+            <Description>At Bryan's Café, we believe in providing a peaceful environment for our customers...</Description>
+        </Section>
+    </Page>
+
+    <Page name="About">
+        <Section id="about-content">
+            <Image src="assets/images/about_cafe.jpg" alt="About Bryan's Café"/>
+            <Description>Bryan’s Café is a haven for young professionals and students...</Description>
+        </Section>
+    </Page>
+
+    <Page name="Menu">
+        <Section id="beverages">
+            <MenuItem>
+                <Name>Espresso</Name>
+                <Price>3.00</Price>
+                <Image src="assets/images/espresso.jpg" alt="Espresso"/>
+            </MenuItem>
+            <MenuItem>
+                <Name>Cappuccino</Name>
+                <Price>4.00</Price>
+                <Image src="assets/images/cappuccino.jpg" alt="Cappuccino"/>
+            </MenuItem>
+            <MenuItem>
+                <Name>Latte</Name>
+                <Price>4.50</Price>
+                <Image src="assets/images/latte.jpg" alt="Latte"/>
+            </MenuItem>
+        </Section>
+        <Section id="food">
+            <MenuItem>
+                <Name>Avocado Toast</Name>
+                <Price>5.50</Price>
+                <Image src="assets/images/avocado_toast.jpg" alt="Avocado Toast"/>
+            </MenuItem>
+            <MenuItem>
+                <Name>Granola Bowl</Name>
+                <Price>6.00</Price>
+                <Image src="assets/images/granola_bowl.jpg" alt="Granola Bowl"/>
+            </MenuItem>
+            <MenuItem>
+                <Name>Organic Salad</Name>
+                <Price>7.00</Price>
+                <Image src="assets/images/organic_salad.jpg" alt="Organic Salad"/>
+            </MenuItem>
+        </Section>
+    </Page>
+
+    <Page name="Contact">
+        <Section id="contact-form">
+            <Title>Contact Us</Title>
+            <Description>Get in Touch</Description>
+            <Form>
+                <Field name="name" type="text"/>
+                <Field name="email" type="email"/>
+                <Field name="message" type="textarea"/>
+            </Form>
+        </Section>
+        <Section id="location">
+            <Address>123 Coffee Street, City Center</Address>
+            <OperatingHours>
+                <Day name="Mon-Fri">8:00 AM - 8:00 PM</Day>
+                <Day name="Sat-Sun">9:00 AM - 6:00 PM</Day>
+            </OperatingHours>
+        </Section>
+    </Page>
+</CafeWebsite>

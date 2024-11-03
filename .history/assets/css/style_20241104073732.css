@@ -1,0 +1,37 @@
+/* Menu Grid Styling */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5em;
+    padding: 2em 0;
+}
+
+.menu-item {
+    background-color: #F2E8DF; /* Light cream */
+    border: 1px solid #D9A689; /* Soft beige border */
+    border-radius: 8px;
+    text-align: center;
+    padding: 1em;
+    transition: transform 0.2s ease;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.menu-item h3 {
+    color: #592C28; /* Deep coffee brown */
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.menu-item p {
+    color: #8C5042; /* Rich brown */
+    font-size: 1em;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
